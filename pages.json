@@ -1,0 +1,70 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/inex",
+		// 	"style": {
+		// 		"navigationBarTitleText": "梗文化"
+		// 	}
+		// },
+		{
+			"path": "pages/tabbar/index",
+			"style": {
+				"navigationBarTitleText": "梗文化"
+			}
+		},
+		{
+			"path": "pages/tabbar/please",
+			"style": {
+				"navigationBarTitleText": "求帖"
+			}
+		}, {
+			"path": "pages/tabbar/contribute",
+			"style": {
+				"navigationBarTitleText": "投稿"
+			}
+		}, {
+			"path": "pages/tabbar/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/source/source",
+			"style": {
+				"navigationBarTitleText": "来源"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/tabbar/index",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/tabbar/please",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "求帖"
+		}, {
+			"pagePath": "pages/tabbar/contribute",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "投稿"
+		}, {
+			"pagePath": "pages/tabbar/mine",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
